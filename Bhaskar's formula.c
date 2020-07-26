@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c,r;
+	double a,b,c,r;
 	double x1,x2;
 	printf("enter first number\n");
-	scanf("%d",&a);
+	scanf("%lf",&a);
 	
 	printf("enter second number\n");
-	scanf("%d",&b);
+	scanf("%lf",&b);
 	
 	printf("enter third number\n");
-	scanf("%d",&c);
+	scanf("%lf",&c);
 	
 	r=(b*b)-((4)*(a)*(c));
 	if(r>0 && a !=0)
