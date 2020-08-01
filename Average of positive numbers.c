@@ -7,15 +7,15 @@ int main()
 	float t=0;
 	int j;
 	printf("Enter First Number");
-	scanf("%f",&a[1]);
+	scanf("%f",&a[0]);
 	printf("Enter Second Number");
-	scanf("%f",&a[2]);
+	scanf("%f",&a[1]);
 	printf("Enter Third Number");
-	scanf("%f",&a[3]);
+	scanf("%f",&a[2]);
 	printf("Enter Fourth Number");
-	scanf("%f",&a[4]);
+	scanf("%f",&a[3]);
 	printf("Enter Fifth Number");
-	scanf("%f",&a[5]);
+	scanf("%f",&a[4]);
 	
 	for(j=0;j<5;j++)
 	{
@@ -29,6 +29,6 @@ int main()
 	
 	printf("%d\n",n);
 	
-	printf("%2f",avg);
+	printf("%0.2f",avg);
 	
 }
