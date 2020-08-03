@@ -24,5 +24,5 @@ int main()
 	  }
 	  
     }
-     	printf("%d",s);
+     	printf("The sum of odd digits is =%d",s);
 }
