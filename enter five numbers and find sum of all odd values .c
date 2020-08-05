@@ -4,15 +4,15 @@ int main()
 	int a[5];
 	int i,p=0;
 	int s=0;
-	printf("Enter First Number");
+	printf("Enter First Number\n");
 	scanf("%d",&a[0]);
-	printf("Enter Second Number");
+	printf("Enter Second Number\n");
 	scanf("%d",&a[1]);
-	printf("Enter Third Number");
+	printf("Enter Third Number\n");
 	scanf("%d",&a[2]);
-	printf("Enter Fourth Number");
+	printf("Enter Fourth Number\n");
 	scanf("%d",&a[3]);
-	printf("Enter Fifth Number");
+	printf("Enter Fifth Number\n");
 	scanf("%d",&a[4]);
 	
     for(i=0;i<5;i++)
@@ -24,5 +24,5 @@ int main()
 	  }
 	  
     }
-     	printf("%d",s);
+     	printf("The sum of odd digits is =%d",s);
 }
